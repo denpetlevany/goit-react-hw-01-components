@@ -19,12 +19,12 @@
 }
 
 .online {
-    color-scheme: status;
+    composes: status;
     background-color: green;
 }
 
 .offline {
-    color-scheme: status;
+    composes: status;
     background-color: red;
 }
 
